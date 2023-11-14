@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="stylesheet.css file toegevoegd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="index.html file aangepast">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +30,20 @@
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="index.html file aangepast">
+      <option name="closed" value="true" />
+      <created>1699973653607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699973653607</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="stylesheet.css file toegevoegd" />
-    <option name="LAST_COMMIT_MESSAGE" value="stylesheet.css file toegevoegd" />
+    <MESSAGE value="index.html file aangepast" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html file aangepast" />
   </component>
 </project>
