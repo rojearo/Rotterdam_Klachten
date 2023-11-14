@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="react en bootstrap envirment aangemaakt">
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="envirment verwijderd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699989433771</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="envirment verwijderd">
+      <option name="closed" value="true" />
+      <created>1699990238748</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699990238748</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +188,7 @@
     <MESSAGE value="heb style toegevoegd aan de inlog page" />
     <MESSAGE value="lettertype kleiner gemaakt" />
     <MESSAGE value="react en bootstrap envirment aangemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="react en bootstrap envirment aangemaakt" />
+    <MESSAGE value="envirment verwijderd" />
+    <option name="LAST_COMMIT_MESSAGE" value="envirment verwijderd" />
   </component>
 </project>
