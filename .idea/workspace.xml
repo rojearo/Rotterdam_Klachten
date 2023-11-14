@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="index.html file aangepast">
+    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="Skelet aan file toegevoegd">
+      <change afterPath="$PROJECT_DIR$/Images/logo_rotterdam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/logo_rotterdam.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +29,15 @@
   "keyToString": {
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/xampp/htdocs/Rotterdam_Klachten/Images",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Rotterdam_Klachten\Images" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="index.html file aangepast">
       <option name="closed" value="true" />
@@ -38,12 +47,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699973653607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Skelet aan file toegevoegd">
+      <option name="closed" value="true" />
+      <created>1699973937382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699973937382</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="stylesheet.css file toegevoegd" />
     <MESSAGE value="index.html file aangepast" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.html file aangepast" />
+    <MESSAGE value="Skelet aan file toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skelet aan file toegevoegd" />
   </component>
 </project>
