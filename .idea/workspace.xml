@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="heb de image veranderd naar een andere en heb het toegevoegd aan de navbar">
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,26 @@
       </map>
     </option>
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rojearo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="99808290-9469-4870-b77b-ca9669852d5e" />
+        <option name="url" value="https://github.com/rojearo/Rotterdam_Klachten.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2YAijxuaShuc2T5Dsl21afI72DM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,8 +58,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "Front-End",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/xampp/htdocs/Rotterdam_Klachten/Images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
@@ -79,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699974497894</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="margin en padding aangepast">
+      <option name="closed" value="true" />
+      <created>1699975058157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699975058157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +115,7 @@
     <MESSAGE value="index.html file aangepast" />
     <MESSAGE value="Skelet aan file toegevoegd" />
     <MESSAGE value="heb de image veranderd naar een andere en heb het toegevoegd aan de navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="heb de image veranderd naar een andere en heb het toegevoegd aan de navbar" />
+    <MESSAGE value="margin en padding aangepast" />
+    <option name="LAST_COMMIT_MESSAGE" value="margin en padding aangepast" />
   </component>
 </project>
