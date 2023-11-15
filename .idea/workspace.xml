@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="envirment verwijderd" />
+    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="bootstrap toegevoegd">
+      <change afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +42,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="99808290-9469-4870-b77b-ca9669852d5e" />
+        <option name="accountId" value="bb558dfb-c7cd-4cbb-9663-4deb0b65e7f0" />
         <option name="url" value="https://github.com/rojearo/Rotterdam_Klachten.git" />
       </UrlAndAccount>
     </option>
@@ -63,13 +67,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/xampp/htdocs/Rotterdam_Klachten/Images",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -159,7 +165,31 @@
       <option name="project" value="LOCAL" />
       <updated>1699990238748</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bootstrap toegevoegd">
+      <option name="closed" value="true" />
+      <created>1699992205816</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699992205816</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bootstrap toegevoegd">
+      <option name="closed" value="true" />
+      <created>1699992242685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699992242685</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="bootstrap toegevoegd" />
+      <created>1700053180672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700053180672</updated>
+      <workItem from="1700053184475" duration="1794000" />
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +219,7 @@
     <MESSAGE value="lettertype kleiner gemaakt" />
     <MESSAGE value="react en bootstrap envirment aangemaakt" />
     <MESSAGE value="envirment verwijderd" />
-    <option name="LAST_COMMIT_MESSAGE" value="envirment verwijderd" />
+    <MESSAGE value="bootstrap toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap toegevoegd" />
   </component>
 </project>
