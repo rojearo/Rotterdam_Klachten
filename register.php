@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->close();
         }
     }
-    if(empty(trim($_POST["Wachtwoord"]))){
+    if (empty($_POST["Wachtwoord"])) {
 
         $wachtwoord_Err = "Vul uw wachtwoord in";
 
@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     }
 
-    if(empty(trim($_POST["BevestigWachtwoord"]))){
+    if (empty($_POST["BevestigWachtwoord"])){
 
         $confirmpassword_Err = "Vul uw bevestig wachtwoord in";
 
