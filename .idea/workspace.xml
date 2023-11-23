@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="envirment verwijderd" />
+=======
+<<<<<<< Updated upstream
+    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="css aan toegevoegd">
+      <change afterPath="$PROJECT_DIR$/Images/Logo-gemeente-Rotterdam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+    </list>
+=======
+<<<<<<< Updated upstream
+    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="css aan toegevoegd" />
+=======
+    <list default="true" id="4f0e09b8-5dc5-4e16-81dc-01b2fe1001ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/locatie/map.php" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +32,7 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+<<<<<<< Updated upstream
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -42,27 +62,48 @@
         <option name="url" value="https://github.com/rojearo/Rotterdam_Klachten.git" />
       </UrlAndAccount>
     </option>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> Stashed changes
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2YAijxuaShuc2T5Dsl21afI72DM" />
+<<<<<<< Updated upstream
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+=======
+=======
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2YASlrugkvQL0GaS6FgSSyMxp6n" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< Updated upstream
     "ASKED_ADD_EXTERNAL_FILES": "true",
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/xampp/htdocs/Rotterdam_Klachten/Images",
@@ -127,6 +168,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699976854241</updated>
     </task>
+<<<<<<< Updated upstream
     <task id="LOCAL-00007" summary="heb style toegevoegd aan de inlog page">
       <option name="closed" value="true" />
       <created>1699988298027</created>
@@ -160,11 +202,39 @@
       <updated>1699990238748</updated>
     </task>
     <option name="localTasksCounter" value="11" />
+=======
+    <option name="localTasksCounter" value="7" />
+=======
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/xamppp/htdocs/Rotterdam_Klachten",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f0e09b8-5dc5-4e16-81dc-01b2fe1001ce" name="Changes" comment="" />
+      <created>1699967044933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699967044933</updated>
+      <workItem from="1699967046662" duration="1911000" />
+    </task>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< Updated upstream
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -176,6 +246,9 @@
       </map>
     </option>
   </component>
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="stylesheet.css file toegevoegd" />
@@ -191,4 +264,6 @@
     <MESSAGE value="envirment verwijderd" />
     <option name="LAST_COMMIT_MESSAGE" value="envirment verwijderd" />
   </component>
+=======
+>>>>>>> Stashed changes
 </project>
