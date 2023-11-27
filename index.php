@@ -1,3 +1,19 @@
+<?php
+
+error_reporting(E_ALL);
+
+require_once "Gebruiker.php";
+
+$user = new User();
+
+if (isset($_POST['Registreren '])) {
+
+    $firstname = ($_POST['Naam']);
+    $lastname = ($_POST['Wachtwoord']);
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,7 +42,7 @@
 
             <div class="Aanmelden_form">
 
-                <form>
+                <form method="POST" action="#">
 
                     <label for="Naam">Naam</label>
 
@@ -42,10 +58,10 @@
 
                     <div class="Button">
 
-                    <input type="submit" value="Aanmelden" style="border-radius: 12px;
+                        <input type="submit" value="Aanmelden" style="border-radius: 12px;
 background: #C93675;">
 
-                    <input type="button" value="Reset" style="border-radius: 12px;
+                        <input type="button" value="Reset" style="border-radius: 12px;
 background: #404B4F;">
 
                     </div>

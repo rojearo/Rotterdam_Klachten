@@ -17,8 +17,9 @@
 <?php
 require "klachten.php";
 // uitlezen vakjes van create1 ------
-$Soort=$_POST["Soort"];
-$Beschrijving=$_POST["Beschrijving"];
+$Soort= $_POST["Soort"];
+$Beschrijving = $_POST["Beschrijving"];
+
 
 // maken object --------------------------------------------
 $klachten1 = new klachten($Soort, $Beschrijving);

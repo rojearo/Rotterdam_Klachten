@@ -8,6 +8,7 @@
     <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="envirment verwijderd" />
 =======
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="css aan toegevoegd">
       <change afterPath="$PROJECT_DIR$/Images/Logo-gemeente-Rotterdam.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -22,6 +23,11 @@
       <change afterPath="$PROJECT_DIR$/locatie/map.php" afterDir="false" />
     </list>
 >>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="css aan toegevoegd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />

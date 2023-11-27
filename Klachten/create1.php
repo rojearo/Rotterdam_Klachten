@@ -15,15 +15,14 @@
 
 </header>
 
-<form action="create2.php" method="post">
-    <label for "Wat is uw klacht?">Wat is uw klacht? </label>
-    <input type="text" name="Wat is uw klacht"></input>
-    <br/>
-    <label for "Beschrijving">Beschrijving</label>
-    <input type="text" name="Beschrijving"></form>
-</input>
-<br/>
-<a href="create2.php"><input type="submit"></a>
+<form action="create2.php" method="POST">
+    <label for = "soort">Soort:</label>
+    <input type="text" name="Soort Klacht">
+
+    <label for = "beschrijving">Beschrijving:</label>
+    <input type="text" name="beschrijving">
+
+    <input type="submit" value="Klacht toevoegen">
 </form>
 </body>
 </html>
