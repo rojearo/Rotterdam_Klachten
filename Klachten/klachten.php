@@ -60,9 +60,9 @@ class klachten
       $Soort = $this->get_Soort();
       $Beschrijving = $this->get_Beschrijving();
 
-      $sql = $conn->prepare("insert into klachten values( :id, soort, :Beschrijving)");
+      $sql = $conn->prepare("insert into klachten values( :id, :Soort, :Beschrijving)");
       $sql->bindParam("id", $id);
-      $sql->bindParam("soort", $Soort);
+      $sql->bindParam("Soort", $Soort);
       $sql->bindParam("Beschrijving", $Beschrijving);
       echo "Uw klacht is verstuurd";
     }
