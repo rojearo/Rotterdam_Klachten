@@ -1,19 +1,3 @@
-<?php
-
-error_reporting(E_ALL);
-
-require_once "Gebruiker.php";
-
-$user = new User();
-
-if (isset($_POST['Registreren '])) {
-
-    $firstname = ($_POST['Naam']);
-    $lastname = ($_POST['Wachtwoord']);
-}
-
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
