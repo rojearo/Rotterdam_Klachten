@@ -70,7 +70,6 @@ class klachten
     public function update($id)
     {
         global $conn;
-        $id;
         $Soort = $this->get_Soort();
         $Beschrijving = $this->get_Beschrijving();
 
