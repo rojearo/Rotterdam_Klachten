@@ -16,11 +16,11 @@
 </header>
 
 <form action="create2.php" method="POST">
-    <label for = "soort">Soort:</label>
-    <input type="text" name="Soort Klacht">
+    <label for = "Soort">Soort:</label>
+    <input type="text" name="Soort">
 
-    <label for = "beschrijving">Beschrijving:</label>
-    <input type="text" name="beschrijving">
+    <label for = "Beschrijving">Beschrijving:</label>
+    <input type="text" name="Beschrijving">
 
     <input type="submit" value="Klacht toevoegen">
 </form>
