@@ -36,5 +36,4 @@
         .bindPopup('A pretty CSS popup.<br> Easily customizable.')
         .openPopup();
 </script>
-</body>
 </html>
