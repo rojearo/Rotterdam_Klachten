@@ -14,15 +14,6 @@
         <img src="Images/Logo-gemeente-Rotterdam.png" alt="Rotterdam_logo">
     </div>
 
-    <div class="slider-container">
-        <div class="slider">
-            <img src="image1.jpg" alt="Image 1">
-            <img src="image2.jpg" alt="Image 2">
-            <img src="image3.jpg" alt="Image 3">
-        </div>
-        <button class="prev" onclick="changeSlide(-1)">Previous</button>
-        <button class="next" onclick="changeSlide(1)">Next</button>
-    </div>
     <script src="script.js"></script>
 
 </header>

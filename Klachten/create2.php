@@ -6,14 +6,6 @@
     <link rel="stylesheet" href="../stylesheet.css">
 </head>
 <body>
-
-<header>
-
-    <div class="navbar">
-        <img src="Images/Logo-gemeente-Rotterdam.png" alt="Rotterdam_logo">
-    </div>
-
-</header> 
 <?php
 require "klachten.php";
 // uitlezen vakjes van create1 ------
