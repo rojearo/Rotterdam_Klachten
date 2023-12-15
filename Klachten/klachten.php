@@ -2,7 +2,7 @@
 require "dbConnect.php";
 // Adonaï Baraketse
 
-class klachten
+class  klachten
 {
     private $id;
     private $Soort;
@@ -12,11 +12,6 @@ class klachten
         $this->id = $id;
         $this->Soort = $Soort;
         $this->Beschrijving = $Beschrijving;
-    }
-
-    function set_id($id)
-    {
-        return $this->id = $id;
     }
 
     function set_Soort($Soort)
@@ -60,7 +55,7 @@ class klachten
       $Soort = $this->get_Soort();
       $Beschrijving = $this->get_Beschrijving();
 
-      $sql = $conn->prepare("insert into klachten values( :id, :Soort, :Beschrijving)");
+      $sql = $conn->prepare("insert into klachten (:id, :Soort, :Beschrijving) values");
       $sql->bindParam("id", $id);
       $sql->bindParam("Soort", $Soort);
       $sql->bindParam("Beschrijving", $Beschrijving);

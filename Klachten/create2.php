@@ -23,6 +23,8 @@ echo ($Soort);
 echo "<br/>";
 echo ($Beschrijving);
 ?>
+
+<a href="../index.php">Ga Terug</a>
 </body>
 </html>
 
