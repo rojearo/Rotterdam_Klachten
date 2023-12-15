@@ -4,11 +4,11 @@
 }
 
 header {
-    width:100%;
+    width: 100%;
     height: 30vh;
 }
 
-.navbar, img{
+.navbar, img {
     display: flex;
     height: 150px;
     align-items: center;
@@ -23,7 +23,7 @@ header {
     height: 50vh;
 }
 
-.Aanmelden, .Login{
+.Aanmelden, .Login {
     padding: 50px;
     width: 600px;
     height: 500px;
@@ -40,7 +40,7 @@ header {
     line-height: normal;
 }
 
-.Aanmelden_form{
+.Aanmelden_form {
     display: flex;
     width: 539px;
     height: 335px;
@@ -49,7 +49,8 @@ header {
     background: #FFF;
     justify-content: center;
 }
-.Aanmelden_form, form{
+
+.Aanmelden_form, form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -64,23 +65,23 @@ header {
     line-height: normal;
 }
 
-form label{
+form label {
     font-size: 20px;
 }
 
-form input{
+form input {
     width: 135px;
     height: 25px;
     border-radius: 5px;
 }
 
-.Button{
+.Button {
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
 }
 
-.Button input{
+.Button input {
     width: 85px;
     height: 55px;
     flex-shrink: 0;
@@ -95,11 +96,11 @@ form input{
     line-height: normal;
 }
 
-.button input:hover{
+.button input:hover {
 
 }
 
-.Homepage-container{
+.Homepage-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -107,24 +108,34 @@ form input{
     height: 5vh;
 }
 
-.klachten, .complimenten{
+.klachten, .complimenten {
     padding: 50px;
-    width: 80vh;
-    height: 30vh;
+    width: 700px;
+    height: 300px;
     border-radius: 12px;
     background: #EFF4F6;
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #000;
     font-family: Crimson Text;
-    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
+.complimenten-Button {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+}
+
+.compliment-text {
+    padding-top: 20px;
+    font-size: 20px;
+    width: 370px;
+    color: #404B4F;
+}
 
 
 

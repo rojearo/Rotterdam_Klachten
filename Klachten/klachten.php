@@ -1,5 +1,6 @@
 <?php
 require "dbConnect.php";
+
 // Adonaï Baraketse
 
 class  klachten
@@ -7,9 +8,9 @@ class  klachten
     private $id;
     private $Soort;
     private $Beschrijving;
-    function __construct($id =NULL, $Soort =NULL, $Beschrijving =NULL)
+
+    function __construct($Soort, $Beschrijving)
     {
-        $this->id = $id;
         $this->Soort = $Soort;
         $this->Beschrijving = $Beschrijving;
     }
@@ -50,16 +51,20 @@ class  klachten
 
     public function create()
     {
-      global $conn;
-      $id = NULL;
-      $Soort = $this->get_Soort();
-      $Beschrijving = $this->get_Beschrijving();
+        global $conn;
+        $Soort = $this->get_Soort();
+        $Beschrijving = $this->get_Beschrijving();
+        var_dump($Beschrijving);
+        try {
+            $sql = $conn->prepare("insert into klachten (Soort, Beschrijving) values (:Soort, :Beschrijving)");
+            $sql->bindParam(":Soort", $Soort);
+            $sql->bindParam(":Beschrijving", $Beschrijving);
+            $sql->execute();
+        } catch (PDOException $error) {
+            echo $error->getMessage();
+        }
 
-      $sql = $conn->prepare("insert into klachten (:id, :Soort, :Beschrijving) values");
-      $sql->bindParam("id", $id);
-      $sql->bindParam("Soort", $Soort);
-      $sql->bindParam("Beschrijving", $Beschrijving);
-      echo "Uw klacht is verstuurd";
+        echo "Uw klacht is verstuurd";
     }
 
     public function update($id)
@@ -81,8 +86,7 @@ class  klachten
         global $conn;
         $sql = $conn->prepare("SELECT * from klachten");
         $sql->execute();
-        foreach ($sql as $klachten)
-        {
+        foreach ($sql as $klachten) {
             echo $klachten ["id"] . "-";
             $this->set_Soort($klachten["Soort"]);
             echo $klachten["Soort"] . "-";
@@ -93,15 +97,14 @@ class  klachten
 
     public function search($id)
     {
-        global  $conn;
-            $sql = $conn->prepare("select * from klachten where id=:id");
-            $sql->execute([":id" => $id]);
-            foreach ($sql as $klachten)
-            {
-                echo $klachten["id"] . "";
-                echo $this->Soort = $klachten["Soort"] . "";
-                echo $this->Beschrijving = $klachten["Beschrijving"] . "";
-            }
+        global $conn;
+        $sql = $conn->prepare("select * from klachten where id=:id");
+        $sql->execute([":id" => $id]);
+        foreach ($sql as $klachten) {
+            echo $klachten["id"] . "";
+            echo $this->Soort = $klachten["Soort"] . "";
+            echo $this->Beschrijving = $klachten["Beschrijving"] . "";
+        }
     }
 
     public function delete($id)
