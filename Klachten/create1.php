@@ -24,7 +24,7 @@
 <script>
 
     const successCallback = (position) => {
-        console.log(position.coords.latitude);
+        console.log(position.coords.latitude);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
         document.getElementById("latitude").value = position.coords.latitude
         console.log(position.coords.longitude);
         document.getElementById("longitude").value = position.coords.longitude
