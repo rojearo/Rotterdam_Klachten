@@ -9,7 +9,7 @@ class  klachten
     private $Soort;
     private $Beschrijving;
 
-    function __construct($Soort, $Beschrijving)
+    function __construct($Soort =NULL, $Beschrijving =NULL)
     {
         $this->Soort = $Soort;
         $this->Beschrijving = $Beschrijving;
