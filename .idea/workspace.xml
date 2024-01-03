@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="0a2e6139-5eda-4d9c-b3e2-29aa937a2abc" name="Changes" comment="homepage.html file toegevoegd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Klachten/create2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Klachten/create2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Klachten/klachten.php" beforeDir="false" afterPath="$PROJECT_DIR$/Klachten/klachten.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+=======
+    <list default="true" id="0a2e6139-5eda-4d9c-b3e2-29aa937a2abc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Klachten/create1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Klachten/create1.php" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +75,7 @@
       <workItem from="1702030007700" duration="5625000" />
       <workItem from="1702290837472" duration="2643000" />
       <workItem from="1702630174964" duration="5000" />
-      <workItem from="1702631258648" duration="318000" />
+      <workItem from="1702631258648" duration="1065000" />
     </task>
     <servers />
   </component>

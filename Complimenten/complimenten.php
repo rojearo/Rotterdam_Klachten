@@ -1,9 +1,9 @@
 <?php
-require "dbConnect2.php";
+require "dbConnect.php";
 
 // Adonaï Baraketse
 
-class  klachten
+class  complimenten
 {
     private $id;
     private $Soort;
@@ -56,7 +56,7 @@ class  klachten
         $Beschrijving = $this->get_Beschrijving();
         var_dump($Beschrijving);
         try {
-            $sql = $conn->prepare("insert into klachten (Soort, Beschrijving) values (:Soort, :Beschrijving)");
+            $sql = $conn->prepare("insert into complimenten (Soort, Beschrijving) values (:Soort, :Beschrijving)");
             $sql->bindParam(":Soort", $Soort);
             $sql->bindParam(":Beschrijving", $Beschrijving);
             $sql->execute();
@@ -73,7 +73,7 @@ class  klachten
         $Soort = $this->get_Soort();
         $Beschrijving = $this->get_Beschrijving();
 
-        $sql = $conn->prepare("update klachten set  Soort=:Soort, Beschrijving=:Beschrijving where id=:id");
+        $sql = $conn->prepare("update complimenten set  Soort=:Soort, Beschrijving=:Beschrijving where id=:id");
 
         $sql->bindParam("id", $id);
         $sql->bindParam("Soort", $Soort);
@@ -84,33 +84,33 @@ class  klachten
     public function read()
     {
         global $conn;
-        $sql = $conn->prepare("SELECT * from klachten");
+        $sql = $conn->prepare("SELECT * from complimenten");
         $sql->execute();
-        foreach ($sql as $klachten) {
-            echo $klachten ["id"] . "-";
-            $this->set_Soort($klachten["Soort"]);
-            echo $klachten["Soort"] . "-";
-            $this->set_Beschrijving($klachten["Beschrijving"]);
-            echo $klachten["Beschrijving"] . "<br>";
+        foreach ($sql as $complimenten) {
+            echo $complimenten ["id"] . "-";
+            $this->set_Soort($complimenten["Soort"]);
+            echo $complimenten["Soort"] . "-";
+            $this->set_Beschrijving($complimenten["Beschrijving"]);
+            echo $complimenten["Beschrijving"] . "<br>";
         }
     }
 
     public function search($id)
     {
         global $conn;
-        $sql = $conn->prepare("select * from klachten where id=:id");
+        $sql = $conn->prepare("select * from complimenten where id=:id");
         $sql->execute([":id" => $id]);
-        foreach ($sql as $klachten) {
-            echo $klachten["id"] . "";
-            echo $this->Soort = $klachten["Soort"] . "";
-            echo $this->Beschrijving = $klachten["Beschrijving"] . "";
+        foreach ($sql as $complimenten) {
+            echo $complimenten["id"] . "";
+            echo $this->Soort = $complimenten["Soort"] . "";
+            echo $this->Beschrijving = $complimenten["Beschrijving"] . "";
         }
     }
 
     public function delete($id)
     {
         global $conn;
-        $sql = $conn->prepare("DELETE FROM kLACHTEN where id =:id");
+        $sql = $conn->prepare("delete from complimenten where id =:id");
         $sql->bindParam("id", $id);
         $sql->execute();
     }
