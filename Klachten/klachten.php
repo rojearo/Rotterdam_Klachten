@@ -54,16 +54,11 @@ class  klachten
         global $conn;
         $Soort = $this->get_Soort();
         $Beschrijving = $this->get_Beschrijving();
-        var_dump($Beschrijving);
-        try {
+
             $sql = $conn->prepare("insert into klachten (Soort, Beschrijving) values (:Soort, :Beschrijving)");
             $sql->bindParam(":Soort", $Soort);
             $sql->bindParam(":Beschrijving", $Beschrijving);
             $sql->execute();
-        } catch (PDOException $error) {
-            echo $error->getMessage();
-        }
-
         echo "Uw klacht is verstuurd";
     }
 

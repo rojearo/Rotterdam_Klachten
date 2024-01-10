@@ -122,18 +122,19 @@ form input {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    flex-direction: column;
 }
 
-.complimenten-Button {
+.complimenten-Button, .klachten-Button{
     display: flex;
     align-items: flex-end;
     height: 200px;
 }
 
-.compliment-text {
+.compliment-text, .klachten-text{
     padding-top: 20px;
     font-size: 20px;
-    width: 370px;
+    width: 400px;
     color: #404B4F;
 }
 
