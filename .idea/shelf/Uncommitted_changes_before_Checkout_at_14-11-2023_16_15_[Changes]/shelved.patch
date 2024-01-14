@@ -1,0 +1,46 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"settings.editor.selected.configurable\" value=\"configurable.group.appearance\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,9 +1,32 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="32e6dfc5-3b3d-4839-ba71-baa3fb74f710" name="Changes" comment="eerste text voor de main all toegevoegd" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
+   <component name="ComposerSettings">
+     <execution />
+   </component>
+-  <component name="PropertiesComponent">
+-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "dart.analysis.tool.window.visible": "false",
++    "node.js.selected.package.tslint": "(autodetect)"
++  }
++}]]></component>
++  <component name="TaskManager">
++    <servers />
+   </component>
+ </project>
+\ No newline at end of file

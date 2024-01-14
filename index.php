@@ -14,6 +14,8 @@
         <img src="Images/Logo-gemeente-Rotterdam.png" alt="Rotterdam_logo">
     </div>
 
+    <script src="script.js"></script>
+
 </header>
 
 <main>
@@ -26,8 +28,12 @@
 
             <div class="Aanmelden_form">
 
+<<<<<<< HEAD:index.html
                 <form action="register.php"
                       method="post">
+=======
+                <form method="POST" action="#">
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9:index.php
 
                     <label for="Naam">Naam</label>
 
@@ -72,7 +78,7 @@ background: #404B4F;">
 
                     <div class="Button">
 
-                        <input type="submit" value="Aanmelden" style="border-radius: 12px;
+                        <input type="submit" value="Inloggen" style="border-radius: 12px;
 background: #C93675;">
 
                         <input type="button" value="Reset" style="border-radius: 12px;

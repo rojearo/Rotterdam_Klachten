@@ -4,10 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="begin gemaakt aan de login form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+=======
+<<<<<<< Updated upstream
+    <list default="true" id="0a2e6139-5eda-4d9c-b3e2-29aa937a2abc" name="Changes" comment="homepage.html file toegevoegd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Klachten/klachten.php" beforeDir="false" afterPath="$PROJECT_DIR$/Klachten/klachten.php" afterDir="false" />
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+=======
+    <list default="true" id="0a2e6139-5eda-4d9c-b3e2-29aa937a2abc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Klachten/create1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Klachten/create1.php" afterDir="false" />
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,19 +37,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="93f3232873444e2db394a9471582f9449970316a" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -47,52 +61,63 @@
       </UrlAndAccount>
     </option>
   </component>
+=======
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2YAijxuaShuc2T5Dsl21afI72DM" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2Y8LmiOjQCMbzWVURgHYqNMJ3mm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
     "ASKED_ADD_EXTERNAL_FILES": "true",
+=======
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/xampp/htdocs/Rotterdam_Klachten/Images",
+    "last_opened_file_path": "C:/xampp/htdocs/Intro-to-Vue-3",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+<<<<<<< HEAD
     "nodejs_package_manager_path": "npm",
+=======
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Rotterdam_Klachten\Images" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="index.html file aangepast">
-      <option name="closed" value="true" />
-      <created>1699973653607</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1699973653607</updated>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a2e6139-5eda-4d9c-b3e2-29aa937a2abc" name="Changes" comment="" />
+      <created>1699902420547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699902420547</updated>
+      <workItem from="1699902421595" duration="596000" />
+      <workItem from="1702030007700" duration="5625000" />
+      <workItem from="1702290837472" duration="2643000" />
+      <workItem from="1702630174964" duration="5000" />
+<<<<<<< Updated upstream
+      <workItem from="1702631258648" duration="1065000" />
+=======
+      <workItem from="1702631258648" duration="318000" />
+      <workItem from="1702634114812" duration="702000" />
+      <workItem from="1703040511059" duration="68000" />
+>>>>>>> Stashed changes
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00002" summary="Skelet aan file toegevoegd">
       <option name="closed" value="true" />
       <created>1699973937382</created>
@@ -198,23 +223,15 @@
       <updated>1700055398980</updated>
     </task>
     <option name="localTasksCounter" value="14" />
+=======
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="stylesheet.css file toegevoegd" />
     <MESSAGE value="index.html file aangepast" />
@@ -230,5 +247,9 @@
     <MESSAGE value="bootstrap toegevoegd" />
     <MESSAGE value="begin gemaakt aan de login form" />
     <option name="LAST_COMMIT_MESSAGE" value="begin gemaakt aan de login form" />
+=======
+    <MESSAGE value="homepage.html file toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="homepage.html file toegevoegd" />
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
   </component>
 </project>
