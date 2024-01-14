@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body {
+    background-image: url("images/cityscape-5057263_1280.png");
+    background-repeat: repeat;
+}
+
+
 header {
     width: 100%;
     height: 30vh;
@@ -10,10 +16,14 @@ header {
 
 .navbar, img {
     display: flex;
-    height: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    height: 100px;
     align-items: center;
     flex-shrink: 0;
 }
+
 
 .container {
     display: flex;
@@ -125,17 +135,22 @@ form input {
     flex-direction: column;
 }
 
-.complimenten-Button, .klachten-Button{
+.complimenten-Button, .klachten-Button {
     display: flex;
     align-items: flex-end;
     height: 200px;
 }
 
-.compliment-text, .klachten-text{
+.compliment-text, .klachten-text {
     padding-top: 20px;
     font-size: 20px;
     width: 400px;
     color: #404B4F;
+}
+
+.complimenten-Button:hover, .klachten-Button:hover {
+    height: 200px;
+
 }
 
 
