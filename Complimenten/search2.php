@@ -16,6 +16,6 @@
     $complimenten1->search($id);
     ?>
 </div>
-<a href="../homepage.html">ga terug</a>
+<a href="../homepage.php">ga terug</a>
 </body>
 </html>

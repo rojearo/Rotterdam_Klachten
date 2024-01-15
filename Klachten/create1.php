@@ -7,6 +7,26 @@
 </head>
 <body>
 
+<header>
+
+    <div class="navbar">
+        <div class="navbar-images">
+            <a href="/homepage.php/"><img src="Rotterdam_klachten/Images/logo_rotterdam.png" alt="Rotterdam_logo"></a>
+        </div>
+
+        <div style="width: 500px">
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="/Klachten/create1.php">Klachten</a></li>
+                    <li><a href="/Complimenten/create1.php">Complimenten</a></li>
+                    <li><a href="/index.php">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</header>
+
 <form action="create2.php" method="POST">
     <label for="Soort">Soort:</label>
     <input type="text" name="Soort">

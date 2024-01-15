@@ -3,4 +3,4 @@ require "complimenten.php";
 $complimenten1 = new complimenten();
 $complimenten1->read();
 ?>
-<a href="../homepage.html">ga terug</a>
+<a href="../homepage.php">ga terug</a>

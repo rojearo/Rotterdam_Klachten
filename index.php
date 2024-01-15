@@ -8,15 +8,7 @@
     <link rel="stylesheet" href="stylesheet.css">
 <body>
 
-<header>
-
-    <div class="navbar">
-        <img src="Images/Logo-gemeente-Rotterdam.png" alt="Rotterdam_logo">
-    </div>
-
-    <script src="script.js"></script>
-
-</header>
+<?php include"header.php"; ?>
 
 <main>
 
@@ -28,12 +20,12 @@
 
             <div class="Aanmelden_form">
 
-<<<<<<< HEAD:index.html
+
                 <form action="register.php"
                       method="post">
-=======
+
                 <form method="POST" action="#">
->>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9:index.php
+
 
                     <label for="Naam">Naam</label>
 
