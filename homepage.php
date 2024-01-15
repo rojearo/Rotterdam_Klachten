@@ -1,33 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HomePage</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="stylesheet.css">
-</head>
 <body>
-<header>
 
-    <div class="navbar">
-        <div class="navbar-images">
-            <img src="Images/Logo-gemeente-Rotterdam.png" alt="Rotterdam_logo">
-        </div>
-
-        <div class="navbar-">
-            <div>
-                <ul>
-                    <li><a href="Klachten/create1.php">Klachten</a></li>
-                    <li><a href="Complimenten/create1.php">Complimenten</a></li>
-                    <li><a href="index.php">Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-</header>
+<?php include"header.php"; ?>
 
 <main>
-
     <div class="Homepage-container">
 
         <div class="klachten">
