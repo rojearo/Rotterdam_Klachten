@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<?php include"header.php"; ?>
+<?php include "header.php"; ?>
 
 <main>
     <div class="Homepage-container">
@@ -28,8 +28,10 @@
 
             <div class="Klachten-Button">
 
-                <a href="Klachten/create1.php"><input type="submit" value="Melden via de website" style="border-radius: 12px;
-background: #C93675;height: 65px; width: 230px; color:#FFFFFF; font-weight:bold;"></a>
+                <a href="Klachten/create1.php">
+
+                    <input type="submit" value="Melden via de website"
+                           style="border-radius: 12px;height: 65px; width: 230px; color:#FFFFFF; font-weight:bold;"></a>
 
             </div>
 
@@ -57,8 +59,8 @@ background: #C93675;height: 65px; width: 230px; color:#FFFFFF; font-weight:bold;
 
             <div class="complimenten-Button">
 
-                <input type="submit" value="Melden via de website" style="border-radius: 12px;
-background: #C93675;height: 65px; width: 230px; color:#FFFFFF; font-weight:bold;">
+                <input type="submit" value="Melden via de website"
+                       style="border-radius: 12px;height: 65px; width: 230px; color:#FFFFFF; font-weight:bold;">
 
             </div>
 

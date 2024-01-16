@@ -18,15 +18,17 @@
         <div style="width: 500px">
             <div class="navbar-links">
                 <ul>
-                    <li><a href="/Klachten/create1.php">Klachten</a></li>
-                    <li><a href="/Complimenten/create1.php">Complimenten</a></li>
-                    <li><a href="/index.php">Login</a></li>
+                    <li><a href="/Rotterdam_Klachten/Klachten/create1.php">Klachten</a></li>
+                    <li><a href="/Rotterdam_Klachten/Complimenten/create1.php">Complimenten</a></li>
+                    <li><a href="/Rotterdam_Klachten/index.php">Login</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
 </header>
+
+<h1 class="header-title">Complimenten</h1>
 
 <main class="main-form">
     <div class="form-container">
@@ -48,7 +50,6 @@
 
 </main>
 <script>
-
     const successCallback = (position) => {
         console.log(position.coords.latitude);
         document.getElementById("latitude").value = position.coords.latitude

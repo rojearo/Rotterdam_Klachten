@@ -8,80 +8,41 @@
     <link rel="stylesheet" href="stylesheet.css">
 <body>
 
-<?php include"header.php"; ?>
+<?php include "header.php"; ?>
 
 <main>
 
     <div class="container">
-
         <div class="Aanmelden">
-
             <h2>Aanmelden</h2>
-
             <div class="Aanmelden_form">
-
-
-                <form action="register.php"
-                      method="post">
-
-                <form method="POST" action="#">
-
-
+                <form action="register.php" method="post">
                     <label for="Naam">Naam</label>
-
                     <input type="text" placeholder="Naam">
-
                     <label for="Wachtwoord">Wachtwoord</label>
-
                     <input type="password" placeholder="Wachtwoord">
-
-                    <label for="BevestigWachtwoord">BevestigWachtwoord</label>
-
-                    <input type="password" placeholder="BevestigWachtwoord">
-
+                    <label for="BevestigWachtwoord">Bevestig Wachtwoord</label>
+                    <input type="password" placeholder="Bevestig Wachtwoord">
                     <div class="Button">
-
-                        <input type="submit" value="Aanmelden" style="border-radius: 12px;
-background: #C93675;">
-
-                        <input type="button" value="Reset" style="border-radius: 12px;
-background: #404B4F;">
-
+                        <input type="submit" value="Aanmelden">
                     </div>
                 </form>
-
             </div>
-
         </div>
-
         <div class="Login">
             <h2>Login</h2>
             <div class="Aanmelden_form">
-
                 <form>
-
                     <label for="Naam">Naam</label>
-
                     <input type="text" placeholder="Naam">
-
                     <label for="password">Wachtwoord</label>
-
                     <input type="password" placeholder="Wachtwoord">
-
                     <div class="Button">
-
-                        <input type="submit" value="Inloggen" style="border-radius: 12px;
-background: #C93675;">
-
-                        <input type="button" value="Reset" style="border-radius: 12px;
-background: #404B4F;">
-
+                        <input type="submit" value="Inloggen">
                     </div>
                 </form>
-
             </div>
         </div>
-
     </div>
 
 </main>

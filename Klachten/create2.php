@@ -21,15 +21,16 @@
         <div style="width: 500px">
             <div class="navbar-links">
                 <ul>
-                    <li><a href="/Klachten/create1.php">Klachten</a></li>
-                    <li><a href="/Complimenten/create1.php">Complimenten</a></li>
-                    <li><a href="/index.php">Login</a></li>
+                    <li><a href="/Rotterdam_Klachten/Klachten/create1.php">Klachten</a></li>
+                    <li><a href="/Rotterdam_Klachten/Complimenten/create1.php">Complimenten</a></li>
+                    <li><a href="/Rotterdam_Klachten/index.php">Login</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
 </header>
+
 <?php
 
 require "klachten.php";
