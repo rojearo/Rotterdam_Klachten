@@ -3,6 +3,8 @@ require "complimenten.php";
 // uitlezen vakjes van create1 ------
 $Soort= $_POST["Soort"];
 $Beschrijving = $_POST["Beschrijving"];
+$latitude = $_POST["latitude"];
+$longitude = $_POST["longitude"];
 // maken object --------------------------------------------
 $complimenten1 = new complimenten($Soort, $Beschrijving);
 $complimenten1->create();
