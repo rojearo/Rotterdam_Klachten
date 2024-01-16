@@ -11,7 +11,8 @@
 
     <div class="navbar">
         <div class="navbar-images">
-            <a href="/homepage.php/"><img src="Rotterdam_klachten/Images/logo_rotterdam.png" alt="Rotterdam_logo"></a>
+            <a href="/Rotterdam_Klachten/homepage.php"><img
+                        src="/Rotterdam_Klachten/Images/Logo-gemeente-Rotterdam.png " alt="Rotterdam_logo"></a>
         </div>
 
         <div style="width: 500px">
@@ -27,24 +28,29 @@
 
 </header>
 
-<form action="create2.php" method="POST">
-    <label for="Soort">Soort:</label>
-    <input type="text" name="Soort">
+<main class="main-form">
+<div class="form-container">
+    <form action="create2.php" method="POST">
+        <label for="Soort">Soort Klacht:</label>
+        <input type="text" placeholder="SoortKlacht" name="Soort">
 
-    <label for="Beschrijving">Beschrijving:</label>
-    <input type="text" name="Beschrijving">
+        <label for="Beschrijving">Beschrijving:</label>
+        <input type="text" placeholder="Beschrijving" name="Beschrijving">
 
-    <input type="hidden" id="latitude" name="latitude">
+        <input type="hidden" id="latitude" name="latitude">
 
-    <input type="hidden" id="longitude" name="longitude">
+        <input type="hidden" id="longitude" name="longitude">
 
-    <input type="submit" value="Klacht toevoegen">
-</form>
+        <input type="submit" value="Klacht toevoegen">
+    </form>
 
+</div>
+
+</main>
 <script>
 
     const successCallback = (position) => {
-        console.log(position.coords.latitude);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+        console.log(position.coords.latitude);
         document.getElementById("latitude").value = position.coords.latitude
         console.log(position.coords.longitude);
         document.getElementById("longitude").value = position.coords.longitude

@@ -12,6 +12,7 @@
                     <li><a href="Klachten/create1.php">Klachten</a></li>
                     <li><a href="Complimenten/create1.php">Complimenten</a></li>
                     <li><a href="index.php">Login</a></li>
+                    <li><a href="#">Beheerder</a></li>
                 </ul>
             </div>
         </div>

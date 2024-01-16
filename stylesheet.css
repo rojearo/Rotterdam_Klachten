@@ -52,7 +52,6 @@ li, a {
 }
 
 
-
 .container {
     display: flex;
     flex-direction: row;
@@ -179,7 +178,61 @@ form input {
 
 .complimenten-Button:hover, .klachten-Button:hover {
     height: 200px;
+}
 
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.51); /* Fallback color */
+    margin-bottom: 20vh;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    gap: 15px;
+}
+
+form label {
+    font-size: 40px;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 75%;
+    border: 2px solid #eee;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input[type="submit"] {
+    width: fit-content;
+    height: fit-content;
+    background-color: #404B4F;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.main-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
