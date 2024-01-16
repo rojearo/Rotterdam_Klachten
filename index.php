@@ -8,15 +8,7 @@
     <link rel="stylesheet" href="stylesheet.css">
 <body>
 
-<header>
-
-    <div class="navbar">
-        <img src="Images/Logo-gemeente-Rotterdam.png" alt="Rotterdam_logo">
-    </div>
-
-    <script src="script.js"></script>
-
-</header>
+<?php include"header.php"; ?>
 
 <main>
 
@@ -28,19 +20,24 @@
 
             <div class="Aanmelden_form">
 
+
+                <form action="register.php"
+                      method="post">
+
                 <form method="POST" action="#">
+
 
                     <label for="Naam">Naam</label>
 
                     <input type="text" placeholder="Naam">
 
-                    <label for="password">Wachtwoord</label>
+                    <label for="Wachtwoord">Wachtwoord</label>
 
                     <input type="password" placeholder="Wachtwoord">
 
-                    <label for="Herhaal_password">Herhaal Wachtwoord</label>
+                    <label for="BevestigWachtwoord">BevestigWachtwoord</label>
 
-                    <input type="password" placeholder="Herhaal Wactwoord">
+                    <input type="password" placeholder="BevestigWachtwoord">
 
                     <div class="Button">
 

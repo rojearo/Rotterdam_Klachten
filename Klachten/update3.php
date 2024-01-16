@@ -23,6 +23,6 @@ echo $id ."<br/>";
 $klachten1->afdrukken();
 ?>
 <br>
-<a href="../homepage.html">ga terug</a>
+<a href="../homepage.php">ga terug</a>
 </body>
 </html>

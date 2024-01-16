@@ -4,6 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="begin gemaakt aan de login form">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+=======
 <<<<<<< Updated upstream
     <list default="true" id="0a2e6139-5eda-4d9c-b3e2-29aa937a2abc" name="Changes" comment="homepage.html file toegevoegd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -18,6 +24,7 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +46,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rojearo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bb558dfb-c7cd-4cbb-9663-4deb0b65e7f0" />
+        <option name="url" value="https://github.com/rojearo/Rotterdam_Klachten.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+=======
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,8 +76,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+=======
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
@@ -62,6 +90,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+<<<<<<< HEAD
+    "nodejs_package_manager_path": "npm",
+=======
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,13 +117,139 @@
       <workItem from="1703040511059" duration="68000" />
 >>>>>>> Stashed changes
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00002" summary="Skelet aan file toegevoegd">
+      <option name="closed" value="true" />
+      <created>1699973937382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699973937382</updated>
+    </task>
+    <task id="LOCAL-00003" summary="heb de image veranderd naar een andere en heb het toegevoegd aan de navbar">
+      <option name="closed" value="true" />
+      <created>1699974497894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699974497894</updated>
+    </task>
+    <task id="LOCAL-00004" summary="margin en padding aangepast">
+      <option name="closed" value="true" />
+      <created>1699975058157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699975058157</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test">
+      <option name="closed" value="true" />
+      <created>1699975261192</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699975261192</updated>
+    </task>
+    <task id="LOCAL-00006" summary="css aan toegevoegd">
+      <option name="closed" value="true" />
+      <created>1699976854241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699976854241</updated>
+    </task>
+    <task id="LOCAL-00007" summary="heb style toegevoegd aan de inlog page">
+      <option name="closed" value="true" />
+      <created>1699988298027</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699988298027</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lettertype kleiner gemaakt">
+      <option name="closed" value="true" />
+      <created>1699989018104</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699989018104</updated>
+    </task>
+    <task id="LOCAL-00009" summary="react en bootstrap envirment aangemaakt">
+      <option name="closed" value="true" />
+      <created>1699989433771</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699989433771</updated>
+    </task>
+    <task id="LOCAL-00010" summary="envirment verwijderd">
+      <option name="closed" value="true" />
+      <created>1699990238748</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699990238748</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bootstrap toegevoegd">
+      <option name="closed" value="true" />
+      <created>1699992205816</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699992205816</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bootstrap toegevoegd">
+      <option name="closed" value="true" />
+      <created>1699992242685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699992242685</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3247caca-355e-4762-b6ea-404ab836f17b" name="Changes" comment="bootstrap toegevoegd" />
+      <created>1700053180672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700053180672</updated>
+      <workItem from="1700053184475" duration="3154000" />
+    </task>
+    <task id="LOCAL-00013" summary="begin gemaakt aan de login form">
+      <option name="closed" value="true" />
+      <created>1700055398980</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700055398980</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+=======
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="stylesheet.css file toegevoegd" />
+    <MESSAGE value="index.html file aangepast" />
+    <MESSAGE value="Skelet aan file toegevoegd" />
+    <MESSAGE value="heb de image veranderd naar een andere en heb het toegevoegd aan de navbar" />
+    <MESSAGE value="margin en padding aangepast" />
+    <MESSAGE value="test" />
+    <MESSAGE value="css aan toegevoegd" />
+    <MESSAGE value="heb style toegevoegd aan de inlog page" />
+    <MESSAGE value="lettertype kleiner gemaakt" />
+    <MESSAGE value="react en bootstrap envirment aangemaakt" />
+    <MESSAGE value="envirment verwijderd" />
+    <MESSAGE value="bootstrap toegevoegd" />
+    <MESSAGE value="begin gemaakt aan de login form" />
+    <option name="LAST_COMMIT_MESSAGE" value="begin gemaakt aan de login form" />
+=======
     <MESSAGE value="homepage.html file toegevoegd" />
     <option name="LAST_COMMIT_MESSAGE" value="homepage.html file toegevoegd" />
+>>>>>>> 52a986b08fe2506ffd8f422ea0aee8121a6b2bf9
   </component>
 </project>

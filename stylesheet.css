@@ -11,7 +11,8 @@ body {
 
 header {
     width: 100%;
-    height: 30vh;
+    background: rgba(255, 255, 255, 0.13); /* Fallback color */
+    margin-bottom: 20vh;
 }
 
 .navbar, img {
@@ -23,6 +24,33 @@ header {
     align-items: center;
     flex-shrink: 0;
 }
+
+.navbar-links, ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-links, li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+}
+
+li, a {
+    font-family: Crimson Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #000000;
+}
+
 
 
 .container {
@@ -37,7 +65,7 @@ header {
     padding: 50px;
     width: 600px;
     height: 500px;
-    background: #EFF4F6;
+    background: rgba(255, 255, 255, 0.13); /* Fallback color */
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -56,7 +84,7 @@ header {
     height: 335px;
     flex-shrink: 0;
     border-radius: 12px;
-    background: #FFF;
+    background: rgba(255, 255, 255, 0.51); /* Fallback color */
     justify-content: center;
 }
 
@@ -123,7 +151,8 @@ form input {
     width: 700px;
     height: 300px;
     border-radius: 12px;
-    background: #EFF4F6;
+    background: rgba(255, 255, 255, 0.51); /* Fallback color */
+    background: rgba(255, 255, 255, 0.51); /* Black background with 0.5 opacity */
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
