@@ -15,6 +15,34 @@ header {
     margin-bottom: 20vh;
 }
 
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 24px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards, fadeOut 1s ease-in-out 4s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
 .navbar, img {
     display: flex;
     flex-direction: row;
