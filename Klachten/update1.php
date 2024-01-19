@@ -1,19 +1,40 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
 </head>
 <body>
-<div>
-    <form action="update2.php" method="post">
-        <label for="id">id</label>
-        <input type="text" id = "id" name="id">
-        <input type="submit">
-    </form>
-</div>
+
+<header>
+
+    <div class="navbar">
+        <div class="navbar-images">
+            <a href="/Rotterdam_Klachten/index.php"><img
+                        src="/Rotterdam_Klachten/Images/Logo-gemeente-Rotterdam.png " alt="Rotterdam_logo"></a>
+        </div>
+
+        <div style="width: 500px">
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="/Rotterdam_Klachten/Klachten/create1.php">Klachten</a></li>
+                    <li><a href="/Rotterdam_Klachten/Complimenten/create1.php">Complimenten</a></li>
+                    <li><a href="/Rotterdam_Klachten/index.php">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</header>
+<main class="main-form">
+    <div class="form-container">
+        <form action="update2.php" method="post">
+            <label for="id">id</label>
+            <input type="text" id="id" name="id">
+            <input type="submit">
+        </form>
+    </div>
+</main>
 </body>
 </html>

@@ -23,6 +23,6 @@ echo $id ."<br/>";
 $complimenten1->afdrukken();
 ?>
 <br>
-<a href="../homepage.php">ga terug</a>
+<a href="../index.php">ga terug</a>
 </body>
 </html>

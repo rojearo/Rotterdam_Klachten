@@ -18,6 +18,6 @@ if ($delete == "ja") {
     $complimenten1->delete($id);
 }
 ?>
-<a href="../homepage.php">ga terug</a>
+<a href="../index.php">ga terug</a>
 </body>
 </html>

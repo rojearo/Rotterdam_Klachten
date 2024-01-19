@@ -16,6 +16,6 @@
     $klachten1->search($id);
     ?>
 </div>
-<a href="../homepage.php">ga terug</a>
+<a href="../index.php">ga terug</a>
 </body>
 </html>

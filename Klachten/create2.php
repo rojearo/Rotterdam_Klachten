@@ -14,7 +14,7 @@
 
     <div class="navbar">
         <div class="navbar-images">
-            <a href="/Rotterdam_Klachten/homepage.php"><img
+            <a href="/Rotterdam_Klachten/index.php"><img
                         src="/Rotterdam_Klachten/Images/Logo-gemeente-Rotterdam.png " alt="Rotterdam_logo"></a>
         </div>
 
