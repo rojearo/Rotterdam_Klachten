@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../stylesheet.css">
 </head>
 <body>
+<<<<<<< Updated upstream
 
 <header>
 
@@ -36,5 +37,14 @@
         </form>
     </div>
 </main>
+=======
+<div>
+    <form action="update2.php" method="post">
+        <label for="Soort">Soort</label>
+        <input type="text" Soort = "Soort" name="Soort">
+        <input type="submit">
+    </form>
+</div>
+>>>>>>> Stashed changes
 </body>
 </html>

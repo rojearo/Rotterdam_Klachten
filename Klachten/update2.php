@@ -29,7 +29,7 @@
 </header>
 <?php
 require "klachten.php";
-$id = $_POST["id"];
+$id = $_POST["Soort"];
 $klachten1 = new klachten();
 $klachten1->search($id);
 

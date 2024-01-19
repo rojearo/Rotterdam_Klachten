@@ -1,5 +1,5 @@
 <?php
-require "klachten.php";
+require "./klachten.php";
 $klachten1 = new klachten();
 $klachten1->read();
 ?>

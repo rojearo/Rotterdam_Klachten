@@ -96,7 +96,7 @@ class  klachten
         echo "Uw klacht is verstuurd";
     }
 
-    public function update($id)
+    public function update($Soort)
     {
         global $conn;
         $Soort = $this->get_Soort();
