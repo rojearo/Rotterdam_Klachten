@@ -1,5 +1,5 @@
 <?php
-require "Complimenten/complimenten.php";
+require "../Complimenten/complimenten.php";
 $complimenten1 = new complimenten();
 $complimenten1->read();
 ?>

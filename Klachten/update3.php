@@ -34,15 +34,15 @@ $Soort = $_POST["Soort"];
 $Beschrijving = $_POST["Beschrijving"];
 
 // maken van object
-$klachten1 = new klachten($Soort, $Beschrijving); // maakt object
-<<<<<<< Updated upstream
+$klachten1 = new klachten($Soort, $Beschrijving);
+
 $klachten1->update($id);
-=======
+
 $klachten1->update($Soort);
 echo ". <br/>";
 echo $Soort ."<br/>";
 $klachten1->afdrukken();
->>>>>>> Stashed changes
+
 ?>
 <br>
 <h1 class="header-title">

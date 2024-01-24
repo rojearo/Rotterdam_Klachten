@@ -35,5 +35,13 @@
     L.marker([51.9500, 4.5518]).addTo(map)
         .bindPopup('A pretty CSS popup.<br> Easily customizable.')
         .openPopup();
+
+    getText("../Klachten/get_klachten.php");
+
+    async function getText(file) {
+        let myObject = await fetch(file);
+        let complaints = await myObject.text();
+        console.log(complaints);
+    }
 </script>
 </html>
