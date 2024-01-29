@@ -1,5 +1,5 @@
 <?php
-require "dbConnect2.php";
+require "../Connect/dbConnect.php";
 
 // Adonaï Baraketse
 

@@ -1,30 +1,9 @@
- <!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin=""/>
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
-    <style>
-        #map { height: 600px; }
-    </style>
-    <title>Document</title>
-</head>
-<body>
+<div id="map" style="height: 600px;"></div>
 
-
-
-
-
-<div id="map">
-</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin="">
+</script>
 <script>
     var map = L.map('map').setView([51.9500,4.5518], 13);
 
@@ -32,16 +11,13 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    L.marker([51.9500, 4.5518]).addTo(map)
-        .bindPopup('A pretty CSS popup.<br> Easily customizable.')
-        .openPopup();
-
-    getText("../Klachten/get_klachten.php");
-
-    async function getText(file) {
-        let myObject = await fetch(file);
-        let complaints = await myObject.text();
-        console.log(complaints);
-    }
+    fetch("get_klachten.php")
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(item => {
+                var marker = L.marker([item.latitude, item.longitude]).addTo(map);
+                marker.bindPopup(`Soort: ${item.Soort}<br>Beschrijving: ${item.Beschrijving}`);
+            });
+        })
+        .catch(error => console.error('Error:', error));
 </script>
-</html>
